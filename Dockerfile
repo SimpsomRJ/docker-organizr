@@ -1,2 +1,2 @@
-FROM organizrtools/organizr-v2:latest
+FROM organizr/organizr:latest
 RUN apk update && apk upgrade
