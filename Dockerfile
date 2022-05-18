@@ -1,3 +1,3 @@
-FROM organizr/organizr:latest
+FROM ghcr.io/organizr/organizr:latest
 RUN apk update && apk upgrade
 RUN git config --global --add safe.directory /config/www/organizr
